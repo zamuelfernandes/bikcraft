@@ -10,6 +10,22 @@ p{
   line-height: 20px;
 }
 
+.btn{
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn:hover{
+  color: white;
+  border-color: white;
+}
+
 /* HEADER */
 
 .header{
@@ -66,6 +82,7 @@ p{
 .quote-externo{
   max-width: 320px;
   margin: 0 auto;
+  margin-bottom: 40px;
   color: white;
 }
 
