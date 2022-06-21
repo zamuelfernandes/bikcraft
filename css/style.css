@@ -66,7 +66,7 @@ p{
   border-color: black;
 }
 
-/* HEADER */
+/* HEADER ----------------------------------------------------- */
 
 .header{
   position: fixed;
@@ -101,7 +101,7 @@ p{
   color: white;
 }
 
-/* INTRODUÇÃO */
+/* INTRODUÇÃO ----------------------------------------------------- */
 
 .introducao{
   width: 100%;
@@ -147,7 +147,7 @@ p{
   letter-spacing: .1em;
 }
 
-/* PRODUTOS */
+/* PRODUTOS ----------------------------------------------------- */
 
 .produtos{
   padding: 60px 0;
@@ -192,4 +192,27 @@ p{
 
 .call p{
   padding-bottom: 20px;
+}
+
+/* PORTIFÓLIO ----------------------------------------------------- */
+
+.portfolio{
+  width: 100%;
+  background: black;
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo{
+  color: #fec63e;
+}
+.portfolio .subtitulo::after{
+  background: #fec63e;
+}
+
+.portfolio-lista li:last-child{
+  margin-top: 20px;
+}
+
+.portfolio .call p{
+  color: white;
 }
