@@ -34,6 +34,7 @@ p{
   color: black;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .subtitulo::after{
@@ -44,6 +45,26 @@ p{
   background: black;
   margin: 8px auto;
 }
+.btn{
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn:hover{
+  color: white;
+  border-color: white;
+}
+
+.btn.btn-preto:hover{
+  color: black;
+  border-color: black;
+}
 
 /* HEADER */
 
@@ -53,6 +74,7 @@ p{
   width: 100%;
   background:#fec63e;
   padding: 15px 0px;
+  z-index: 10;
 }
 
 .header_menu{
@@ -129,4 +151,45 @@ p{
 
 .produtos{
   padding: 60px 0;
+}
+
+.produtos-lista li{
+  background: #fec63e;
+  text-align: center;
+}
+
+.produtos-lista li h3{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.produtos-lista li h3::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 2px auto;
+}
+
+.produtos-lista li p{
+  padding: 10px 20px 20px 10px;
+}
+
+.produtos-icon{
+  background: black;
+  padding: 20px;
+}
+
+.call{
+  text-align: center;
+  padding-top: 40px;
+  clear: both; /*Pq os outros elementos da lista estão em float */
+}
+
+.call p{
+  padding-bottom: 20px;
 }
