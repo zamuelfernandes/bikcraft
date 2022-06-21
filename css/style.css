@@ -45,6 +45,11 @@ p{
   border-color: white;
 }
 
+.btn.btn-preto:hover{
+  color: black;
+  border-color: black;
+}
+
 /* HEADER */
 
 .header{
@@ -160,4 +165,14 @@ p{
 .produtos-icon{
   background: black;
   padding: 20px;
+}
+
+.call{
+  text-align: center;
+  padding-top: 40px;
+  clear: both; /*Pq os outros elementos da lista estão em float */
+}
+
+.call p{
+  padding-bottom: 20px;
 }
