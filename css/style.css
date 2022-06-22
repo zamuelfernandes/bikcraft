@@ -10,10 +10,6 @@ p{
   line-height: 20px;
 }
 
-img{
-  display: block;
-}
-
 .btn{
   border: 3px solid #fec63e;
   padding: 10px 30px;
@@ -241,6 +237,7 @@ img{
 
 .qualidade img{
   margin: 0 auto;
+  display: block;
 }
 
 .qualidade-lista{
