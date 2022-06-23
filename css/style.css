@@ -45,6 +45,26 @@ p{
   background: black;
   margin: 8px auto;
 }
+
+.subtitulo-interno{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 8px 0;
+}
+
 .btn{
   border: 3px solid #fec63e;
   padding: 10px 30px;
@@ -267,6 +287,7 @@ p{
 
 .qualidade-lista{
   padding-top: 20px;
+  overflow: auto; /* clear-fix para a pg sobre*/
 }
 
 .qualidade-lista li{
