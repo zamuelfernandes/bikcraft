@@ -121,6 +121,10 @@ p{
   color: white;
 }
 
+.header_menu ul li a.menu-ativo{
+  color: white;
+}
+
 /* INTRODUÇÃO ----------------------------------------------------- */
 
 .introducao{
