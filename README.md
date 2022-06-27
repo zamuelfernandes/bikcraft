@@ -24,6 +24,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
