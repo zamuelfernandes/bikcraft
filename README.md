@@ -33,7 +33,7 @@ Basta clonar o repositório para o seu computador.
 
 ```bash
     # Clonar o repositório
-    $ git clone https://github.com/zamuelfernandes/alura-git
+    $ git clone https://github.com/zamuelfernandes/bikcraft
 ```
 
 Ficou interessado? Acesse o curso [aqui](https://www.origamid.com/curso/web-design-completo/).
