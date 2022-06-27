@@ -20,11 +20,12 @@ Projeto de Site Bikcraft do curso da Origamid, realizado durante processo traine
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) 
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [PHP](https://www.php.net/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
